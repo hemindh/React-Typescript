@@ -10,6 +10,20 @@ const FirstLearningfile = () => {
   let value: Boolean = false;
   //   console.log(value);
 
+  let hobbies: string[];
+  let person: [string, number];
+
+  type PersonOne = {
+    firstName: string;
+    lastName: string;
+    age?: number;
+  };
+
+  let personone: PersonOne = {
+    firstName: "piyush",
+    lastName: "raja",
+  };
+
   //InnerFunction how to get the data with passing perameter
 
   function getName(FirstName: string, LastName: string) {
@@ -85,3 +99,4 @@ export default FirstLearningfile;
 //In Typescript DataTypes is Defined as a variable and its use like define any type like as number , string , boolean .........
 //Function inner how to pass the data in perameter and how to get the data
 //how pass the object inner function and how to get the data of object
+// Void :- The void type denotes the absence of having any type at all. It is a little like the opposite of the any type.
